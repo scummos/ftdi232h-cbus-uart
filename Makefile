@@ -1,7 +1,7 @@
 TOPDIR  := $(shell cd ..; pwd)
 include $(TOPDIR)/Rules.make
 
-APP = bitmode
+APP = uart2pts 
 
 all: $(APP)
 
